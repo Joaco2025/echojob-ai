@@ -1,0 +1,26 @@
+# --- IGNORAR SECRETOS (CRÍTICO) ---
+.env
+backend/.env
+frontend/.env
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# --- IGNORAR ARCHIVOS DE SISTEMA/BASURA ---
+.DS_Store
+Thumbs.db
+
+# --- IGNORAR ENTORNOS Y DEPENDENCIAS ---
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# --- IGNORAR LOGS Y ARCHIVOS GENERADOS ---
+*.log
+dist/
+build/
+*.mp3
+*.wav
